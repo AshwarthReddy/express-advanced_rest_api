@@ -1,9 +1,15 @@
 import 'reflect-metadata';
 import { createExpressServer } from 'routing-controllers';
 import { UserController } from './controllers/UserController';
+<<<<<<< HEAD
 import { MONGO_DATA_SOURCE } from './DB/AppDataSource';
 
 MONGO_DATA_SOURCE
+=======
+import { APP_DATA_SOUCE } from './DB/AppDataSource';
+
+APP_DATA_SOUCE
+>>>>>>> c350da8 (intial commit)
 .initialize()
 .then(() => console.log("data base connection established successfully"))
 .catch((error) => console.log(`database connection failed , due to ${error}`))

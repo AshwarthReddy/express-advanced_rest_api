@@ -6,7 +6,10 @@
       "forceConsistentCasingInFileNames": true,
       "noImplicitAny": true,
       "moduleResolution": "NodeNext",
+<<<<<<< HEAD
       "strictPropertyInitialization": false,
+=======
+>>>>>>> c350da8 (intial commit)
       "sourceMap": true,
       "outDir": "dist",
       "baseUrl": "src",

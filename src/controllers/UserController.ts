@@ -1,3 +1,4 @@
+
 import 'reflect-metadata';
 import { plainToClass } from 'class-transformer';
 import { UserDTO } from '../dto/User';
@@ -7,8 +8,10 @@ import { User } from '../entity/User';
 
 
 
+
 @JsonController("/api")
 export class UserController {
+
 
   constructor(){}
 
@@ -48,4 +51,5 @@ export class UserController {
     let user = await UserRepo.findBy(id)
     return UserRepo.remove(user);
   }
+
 }
