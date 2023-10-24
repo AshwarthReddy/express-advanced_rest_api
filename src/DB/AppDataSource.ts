@@ -1,9 +1,11 @@
+import { User } from "../entity/User"
 import { DataSource } from "typeorm"
 
-export const APP_DATA_SOUCE = new DataSource({
+export const MONGO_DATA_SOURCE = new DataSource({
     type: "mongodb",
     host: "localhost",
     port: 27017,
     database: "users",
+    entities: [User]
 })
 

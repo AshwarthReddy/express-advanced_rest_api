@@ -6,6 +6,7 @@
       "forceConsistentCasingInFileNames": true,
       "noImplicitAny": true,
       "moduleResolution": "NodeNext",
+      "strictPropertyInitialization": false,
       "sourceMap": true,
       "outDir": "dist",
       "baseUrl": "src",
