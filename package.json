@@ -20,7 +20,13 @@
     "reflect-metadata": "^0.1.13",
     "routing-controllers": "^0.10.4",
     "ts-node": "^10.9.1",
+<<<<<<< HEAD
+    "typedi": "^0.10.0",
+    "typeorm": "^0.3.17",
+    "typeorm-typedi-extensions": "^0.4.1"
+=======
     "typeorm": "^0.3.17"
+>>>>>>> c350da8 (intial commit)
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.4",
